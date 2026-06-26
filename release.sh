@@ -4,6 +4,8 @@ set -euo pipefail
 
 VERSION="${1:?version is required}"
 
+npm run build
+
 rm -f dist.tar.gz
 tar -czf dist.tar.gz dist
 
