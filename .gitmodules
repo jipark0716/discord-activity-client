@@ -1,0 +1,3 @@
+[submodule "proto"]
+	path = proto
+	url = https://github.com/jipark0716/discord-activity-protocol.git
